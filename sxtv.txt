@@ -1063,7 +1063,7 @@
         }
     ],
     "lives": [{"name": "live","type": 0,"url": "https://pan.shangui.cc/f/pwy4sL/sxzb.txt","playerType": 1,"ua": "okhttp/4.18","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
-    "spider": "http://www.liuyunw.com:88/img/sx.jar;md5;cc3dbc1fc53b562f44c47199a94bedc7",
+    "spider": "http://www.liuyunw.com:88/sx.jar;md5;cc3dbc1fc53b562f44c47199a94bedc7",
     "wallpaper": "http://sx.liuyun.wang:88/bizhi.php",
     "doh": [
         {
