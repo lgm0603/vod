@@ -1,6 +1,16 @@
 {   
     "warningText": "神仙影视完全免费，切勿付费购买！",
     "sites": [
+        {
+            "key": "nongmin",
+            "name": "💘神仙影视 | 高清急速 官网www.sxtv.top",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/nm.json"
+        },
 		{   "key":"csp_sxtv",
             "name":"自营 | 神仙影视",
             "type":3,
@@ -11,6 +21,16 @@
             "ext":"分类url:http://kdy.sxtv.top/index.php/vod/type/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html,分类:电影$20#电视剧$21#动漫$22#短剧$25#综艺$23#体育$24#纪录片$26"
         },
         {
+            "key": "阿里云盘登录",
+            "name": "Token | 获取",
+            "type": 3,
+            "api": "csp_AliYunPan",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "http://127.0.0.1:9978/file/TVBox/token.txt"
+        },
+        {
             "key": "csp_Bili",
             "name": "哔哩哔哩",
             "type": 3,
@@ -18,7 +38,79 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-             "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/Bili.json"
+             "ext": "./json/Bili.json"
+        },
+        {
+            "key":"Wogg",
+            "name":"阿里 | 玩偶哥哥",
+            "type":3,
+            "api": "csp_WoGG",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "jar":"./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+        },
+        {
+            "key":"影视车",
+            "name":"阿里 | 影视车",
+            "type":3,
+            "api":"csp_Wogg",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
+            "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"
+        
+        },
+        {
+            "key":"Wobg",
+            "name":"阿里 | 玩偶表哥",
+            "type":3,
+            "api":"csp_Wobg",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"
+        },
+        {
+            "key":"Ppxzy",
+            "name":"阿里 | 皮皮虾",
+            "type":3,
+            "api":"csp_Ppxzy", 
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
+            "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"
+        },
+        {
+            "key":"校长影视",
+            "name":"阿里 | 校长影视",
+            "type":3,
+            "api":"csp_XiaoZhang", 
+            "quickSearch":1, 
+            "changeable":1,
+            "filterable":1,
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json$$$null$$$1"
+        },
+        {
+            "key":"团长资源",
+            "name":"阿里 | 团长资源",
+            "type":3,
+            "api":"csp_TZFile", 
+            "quickSearch":1, 
+            "changeable":1,
+            "filterable":1,
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json$$$null$$$1"
         },
         {
             "key": "厂长",
@@ -66,7 +158,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/鲸落.json"
+            "ext": "./json/鲸落.json"
         },
         {
 			"key": "LW",
@@ -185,8 +277,8 @@
             "key": "网飞影视",
             "name": "影视 | 网飞",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/网飞TV.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/网飞TV.js"
         },
         {
             "key": "csp_XYQHikerdyx",
@@ -196,7 +288,7 @@
            "searchable": 1,
            "quickSearch": 1,
            "filterable": 1,
-           "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/电影港.json"
+           "ext": "./json/电影港.json"
         },
         {
             "key": "一起看",
@@ -229,15 +321,15 @@
             "key": "不开心",
             "name": "影视 | 不开心",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/不开心.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/不开心.js"
         },
         {
             "key": "追剧迷",
             "name": "影视 | 追剧迷",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/追剧迷.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/追剧迷.js"
         },
         {
             "key": "熊猫",
@@ -247,7 +339,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/熊猫影视.json"
+            "ext": "./json/熊猫影视.json"
         },
         {
             "key": "农民",
@@ -257,7 +349,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/nongmin.json"
+            "ext": "./json/nongmin.json"
         },
         {
             "key": "03YINGSHI",
@@ -267,7 +359,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/03影院.json"
+            "ext": "./json/03影院.json"
         },
         {
             "key": "wuya",
@@ -277,21 +369,21 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/乌鸦影视.json"
+            "ext": "./json/乌鸦影视.json"
         },
         {
             "key": "两个磁力",
             "name": "影视 | 两个磁力",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/两个磁力.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/两个磁力.js"
         },
         {
             "key": "兄弟影视",
             "name": "影视 | 兄弟影视",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/兄弟影视.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/兄弟影视.js"
         },
         {
             "key": "策驰影院",
@@ -301,14 +393,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/cechi.json"
+            "ext": "./json/cechi.json"
         },
         {
             "key": "畅梦影视",
             "name": "影视 | 畅梦影视",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/畅梦影视.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/畅梦影视.js"
         },
     	{
 	        "key":"南瓜",
@@ -354,7 +446,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/圣城影视.json"
+            "ext": "./json/圣城影视.json"
         },
         {
             "key": "徕米影视",
@@ -364,7 +456,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/徕米影视.json"
+            "ext": "./json/徕米影视.json"
         },
         {
             "key": "萌猫影视",
@@ -374,7 +466,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/萌猫影视.json"
+            "ext": "./json/萌猫影视.json"
         },
         {
             "key": "好戏影视",
@@ -384,7 +476,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/好戏影视.json"
+            "ext": "./json/好戏影视.json"
         },
         {
             "key": "爱看影视",
@@ -394,7 +486,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/爱看影视.json"
+            "ext": "./json/爱看影视.json"
         },
         {
             "key":"maolvys",
@@ -434,7 +526,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/蛋蛋影视.json"
+            "ext": "./json/蛋蛋影视.json"
         },
         {
             "key": "锐行加速",
@@ -444,7 +536,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/锐行加速.json"
+            "ext": "./json/锐行加速.json"
         },
         {
             "key": "深蓝影视",
@@ -454,7 +546,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/深蓝影视.json"
+            "ext": "./json/深蓝影视.json"
         },
         {
             "key": "奇趣影视",
@@ -464,7 +556,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/奇趣影视.json"
+            "ext": "./json/奇趣影视.json"
         },
         {
             "key": "天天视频",
@@ -485,6 +577,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.tvkuys.xyz/api.php/app/"
+        },
+        {
+            "key": "影探",
+            "name": "APP | 影探4K",
+            "type": 3,
+            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+            "ext": "https://d.kstore.space/download/6296/js/yt.js"
         },
         {
             "key": "ysjj-duo",
@@ -524,49 +623,49 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/qty.py"
+            "ext": "./json/qty.py"
         },
         {
             "key": "88看球",
             "name": "体育 | 88看球",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/88看球.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/88看球.js"
         },
         {
             "key": "JRKAN直播",
             "name": "体育 | JRKAN直播",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/JRKAN直播.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/JRKAN直播.js"
         },
         {
              "key": "网络直播",
              "name": "直播 | 综合直播",
              "type": 3,
-             "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/JustLive.js"
+             "api": "./js/drpy.min.js",
+            "ext": "./js/JustLive.js"
         },
         {
             "key": "斗鱼直播",
             "name": "直播 | 斗鱼",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/斗鱼直播.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/斗鱼直播.js"
         },
         {
             "key": "虎牙直播",
             "name": "直播 | 虎牙",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/虎牙直播.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/虎牙直播.js"
         },
         {
             "key": "哔哩直播",
             "name": "直播 | 哔哩哔哩",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/哔哩直播.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/哔哩直播.js"
         },
         {
             "key": "网易CC",
@@ -576,7 +675,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/网易CC.json"
+            "ext": "./json/网易CC.json"
         },
         {
             "key": "樱花动漫",
@@ -592,29 +691,29 @@
             "key": "AnFuns",
             "name": "动漫 | AnFuns",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/AnFuns.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/AnFuns.js"
         },
         {
             "key": "AGE动漫",
             "name": "动漫 | AGE",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/AGE动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/AGE动漫.js"
         },
         {
             "key": "NT动漫",
             "name": "动漫 | NT动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/NT动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/NT动漫.js"
         },
         {
             "key": "58动漫",
             "name": "动漫 | 58动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/58动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/58动漫.js"
         },
         {
             "key": "二三三",
@@ -624,42 +723,42 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/二三三.json"
+            "ext": "./json/二三三.json"
         },
         {
             "key": "路漫漫",
             "name": "动漫 | 路漫漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/路漫漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/路漫漫.js"
         },
         {
             "key": "动漫岛",
             "name": "动漫 | 动漫岛",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/动漫岛.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/动漫岛.js"
         },
         {
             "key": "去看吧",
             "name": "动漫 | 去看吧",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/去看吧.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/去看吧.js"
         },
         {
             "key": "爱弹幕",
             "name": "动漫 | 爱弹幕",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/爱弹幕.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/爱弹幕.js"
         },
         {
             "key": "异世界",
             "name": "动漫 | 异世界",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/异世界.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/异世界.js"
         },
         {
             "key": "plipili",
@@ -675,8 +774,8 @@
             "key": "曲奇动漫",
             "name": "动漫 | 曲奇动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/曲奇动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/曲奇动漫.js"
         },
         {
             "key": "MX动漫",
@@ -692,22 +791,22 @@
             "key": "妮可动漫",
             "name": "动漫 | 妮可动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/妮可动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/妮可动漫.js"
         },
         {
             "key": "奇米动漫",
             "name": "动漫 | 奇米动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/奇米动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/奇米动漫.js"
         },
         {
             "key": "怡萱动漫",
             "name": "动漫 | 怡萱动漫",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/怡萱动漫.js"
+            "api": "./js/drpy.min.js",
+            "ext": "./js/怡萱动漫.js"
         },
         {
             "key": "维奇动漫",
@@ -717,7 +816,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/维奇动漫.json"
+            "ext": "./json/维奇动漫.json"
         },
         {
             "key": "动漫巴士",
@@ -727,14 +826,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/动漫巴士.json"
+            "ext": "./json/动漫巴士.json"
         },
         {
             "key": "兔小贝",
             "name": "教育 | 儿童启蒙",
             "type": 3,
-            "api": "https://atomgit.com/sxtv/sxtv/raw/master/js/drpy.min.js",
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/js/兔小贝.js",
+            "api": "./js/drpy.min.js",
+            "ext": "./js/兔小贝.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
@@ -747,7 +846,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童拼音.json"
+            "ext": "./json/儿童拼音.json"
         },
         {
             "key": "儿童识字",
@@ -757,7 +856,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童识字.json"
+            "ext": "./json/儿童识字.json"
         },
         {
             "key": "儿童英语",
@@ -767,7 +866,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童英语.json"
+            "ext": "./json/儿童英语.json"
         },
         {
             "key": "儿童硬笔",
@@ -777,7 +876,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童硬笔.json"
+            "ext": "./json/儿童硬笔.json"
         },
         {
             "key": "儿童思维",
@@ -787,7 +886,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童思维.json"
+            "ext": "./json/儿童思维.json"
         },
         {
             "key": "儿童口才",
@@ -797,7 +896,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童口才.json"
+            "ext": "./json/儿童口才.json"
         },
         {
             "key": "儿童编程",
@@ -807,7 +906,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童编程.json"
+            "ext": "./json/儿童编程.json"
         },
         {
             "key": "儿童武术",
@@ -817,7 +916,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/儿童武术.json"
+            "ext": "./json/儿童武术.json"
         },
         {
             "key": "少儿教育",
@@ -827,7 +926,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/少儿教育.json"
+            "ext": "./json/少儿教育.json"
         },
         {
             "key": "小学课堂",
@@ -837,7 +936,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小学课堂.json"
+            "ext": "./json/小学课堂.json"
         },
         {
             "key": "初中课堂",
@@ -847,7 +946,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/初中课堂.json"
+            "ext": "./json/初中课堂.json"
         },
         {
             "key": "高中教育",
@@ -857,7 +956,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/高中课堂.json"
+            "ext": "./json/高中课堂.json"
         },
         {
             "key": "外语课堂",
@@ -867,7 +966,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/外语课堂.json"
+            "ext": "./json/外语课堂.json"
         },
         {
             "key": "小灯塔百科",
@@ -877,7 +976,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小灯塔百科.json"
+            "ext": "./json/小灯塔百科.json"
         },
         {
             "key": "小灯塔科学",
@@ -887,7 +986,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小灯塔科学.json"
+            "ext": "./json/小灯塔科学.json"
         },
         {
             "key": "小灯塔地理",
@@ -897,7 +996,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小灯塔地理.json"
+            "ext": "./json/小灯塔地理.json"
         },
         {
             "key": "小灯塔国学",
@@ -907,7 +1006,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小灯塔国学.json"
+            "ext": "./json/小灯塔国学.json"
         },
         {
             "key": "小灯塔人文",
@@ -917,7 +1016,141 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://atomgit.com/sxtv/sxtv/raw/master/json/小灯塔人文.json"
+            "ext": "./json/小灯塔人文.json"
+        },
+        {
+            "key":"PanSearch",
+            "name":"搜索 | PanSearch",
+            "type":3,
+            "api":"csp_PanSearch",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json"
+        },
+        {
+            "key":"易搜",
+            "name":"搜索 | 易搜",
+            "type":3,
+            "api":"csp_YiSo",
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json$$$./lib/yiso.txt"
+        },
+        {
+            "key":"混合盘",
+            "name":"搜索 | 混合盘",
+            "type":3,
+            "api":"csp_HunHePan",
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json"
+        },
+        {
+            "key":"秒搜",
+            "name":"搜索 | 秒搜",
+            "type":3,
+            "api":"csp_MiaoSou",
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json"
+        },
+        {
+            "key":"DaPanSo",
+            "name":"搜索 | 大盘搜",
+            "type":3,
+            "api":"csp_DaPanSo",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
+            "ext":"./lib/tokenm.json$$$https://dapanso.com$$$null"
+        },
+        {
+            "key":"PikaSo",
+            "name":"搜索 | 皮卡搜",
+            "type":3,
+            "api":"csp_PikaSo",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1,
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
+            "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null"
+        },
+        {
+            "key":"Qianfan",
+            "name":"搜索 | 千帆",
+            "type":3,
+            "api":"csp_Qianfan",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30, 
+            "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt"
+        },
+        {
+            "key":"YunSo",
+            "name":"搜索 | 小云搜索",
+            "type":3,
+            "api":"csp_YunSo",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30,
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
+            "ext":"./lib/tokenm.json"
+        },
+        {
+            "key":"YunPanOne",
+            "name":"搜索 | 云盘资源",
+            "type":3,
+            "api":"csp_YunPanOne",
+            "quickSearch":1, 
+            "changeable":1, 
+            "filterable":1, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json"
+        },
+        {
+            "key":"Dovx", 
+            "name": "搜索 | 阿里Dovx", 
+            "type": 3, 
+            "api": "csp_Dovx", 
+            "searchable": 1, 
+            "quickSearch": 1, 
+            "filterable": 0, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json" 
+        },
+        {
+            "key":"Gitcafe",
+            "name": "搜索 | 小纸条", 
+            "type": 3,
+            "api": "csp_Gitcafe",
+            "searchable": 1, 
+            "quickSearch": 1, 
+            "filterable": 0, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json" 
+        },
+        {
+            "key":"找资源", 
+            "name":"搜索 | 找资源", 
+            "type":3, 
+            "api":"csp_Zhaozy", 
+            "searchable":1, 
+            "quickSearch":1, 
+            "filterable": 0, 
+            "timeout":30, 
+            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
+            "ext":"./lib/tokenm.json$$$user$$$pass" 
         }
     ],
     "parses": [
@@ -1062,8 +1295,8 @@
             ]
         }
     ],
-    "lives": [{"name": "live","type": 0,"url": "https://pan.shangui.cc/f/pwy4sL/sxzb.txt","playerType": 1,"ua": "okhttp/4.18","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
-    "spider": "http://www.liuyunw.com:88/sx.jar;md5;cc3dbc1fc53b562f44c47199a94bedc7",
+    "lives": [{"name": "live","type": 0,"url": "./zb.txt","playerType": 1,"ua": "okhttp/4.18","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
+    "spider": "./sx.jar;md5;cc3dbc1fc53b562f44c47199a94bedc7",
     "wallpaper": "http://sx.liuyun.wang:88/bizhi.php",
     "doh": [
         {
