@@ -21,16 +21,6 @@
             "ext":"分类url:http://kdy.sxtv.top/index.php/vod/type/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html,分类:电影$20#电视剧$21#动漫$22#短剧$25#综艺$23#体育$24#纪录片$26"
         },
         {
-            "key": "阿里云盘登录",
-            "name": "Token | 获取",
-            "type": 3,
-            "api": "csp_AliYunPan",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/TVBox/token.txt"
-        },
-        {
             "key": "csp_Bili",
             "name": "哔哩哔哩",
             "type": 3,
@@ -39,78 +29,6 @@
             "quickSearch": 0,
             "filterable": 1,
              "ext": "./json/Bili.json"
-        },
-        {
-            "key":"Wogg",
-            "name":"阿里 | 玩偶哥哥",
-            "type":3,
-            "api": "csp_WoGG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar":"./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
-        },
-        {
-            "key":"影视车",
-            "name":"阿里 | 影视车",
-            "type":3,
-            "api":"csp_Wogg",
-            "quickSearch":1, 
-            "changeable":1, 
-            "filterable":1, 
-            "timeout":30,
-            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
-            "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"
-        
-        },
-        {
-            "key":"Wobg",
-            "name":"阿里 | 玩偶表哥",
-            "type":3,
-            "api":"csp_Wobg",
-            "quickSearch":1, 
-            "changeable":1, 
-            "filterable":1, 
-            "timeout":30, 
-            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
-            "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"
-        },
-        {
-            "key":"Ppxzy",
-            "name":"阿里 | 皮皮虾",
-            "type":3,
-            "api":"csp_Ppxzy", 
-            "quickSearch":1, 
-            "changeable":1, 
-            "filterable":1, 
-            "timeout":30,
-            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7", 
-            "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"
-        },
-        {
-            "key":"校长影视",
-            "name":"阿里 | 校长影视",
-            "type":3,
-            "api":"csp_XiaoZhang", 
-            "quickSearch":1, 
-            "changeable":1,
-            "filterable":1,
-            "timeout":30,
-            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
-            "ext":"./lib/tokenm.json$$$null$$$1"
-        },
-        {
-            "key":"团长资源",
-            "name":"阿里 | 团长资源",
-            "type":3,
-            "api":"csp_TZFile", 
-            "quickSearch":1, 
-            "changeable":1,
-            "filterable":1,
-            "timeout":30,
-            "jar":"./dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
-            "ext":"./lib/tokenm.json$$$null$$$1"
         },
         {
             "key": "厂长",
