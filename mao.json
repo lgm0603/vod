@@ -1,24 +1,65 @@
 {
-    "spider": "http://like.xn--z7x900a.live:66/jar/PandaQ240203.jar;md5;06425BED57257F1B996CDAB400479129",
+    "spider": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/spider.jar",
     "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
             "name": "🐼┃公众号┃肥猫宝贝",
             "type": 3,
-            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://d.kstore.space/download/6296/js/豆瓣推荐.js"
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/豆瓣推荐.js"
+        },
+        {
+            "key": "csp_绿豆",
+            "name": "🐼┃绿豆┃影视",
+            "type": 3,
+            "api": "csp_Lvdou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "playerType": "1",
+            "ext": {
+                "server": "http://s.weixine.net/api.php/app/",
+                "mackey": "6JLF1OWhgEnMexAs|6CrRdTxr2qXj9258"
+            }
         },
         {
             "key": "nangua",
             "name": "🎃┃南瓜┃影视",
             "type": 3,
             "playerType": "2",
-            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
-            "ext": "https://d.kstore.space/download/6296/js/南瓜.js"
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/南瓜.js"
+        },
+        {
+            "key": "蜂鸟",
+            "name": "🕊️┃蜂鸟┃影视",
+            "type": 3,
+            "api": "csp_AppSK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
+        },
+        {
+            "key": "南坊",
+            "name": "☀┃南坊┃影视",
+            "type": 3,
+            "api": "csp_AppMao",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsj/P87VXSxEVLnwNm4fos8lCFL74+azvs61n89svqg=",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
+        },
+        {
+            "key": "影探",
+            "name": " 🕵┃影探┃影视",
+            "type": 3,
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/yt.js"
         },
         {
             "key": "忍者",
@@ -29,10 +70,27 @@
             "ext": "http://rzys.xyz/"
         },
         {
-            "key": "csp_Cs1369",
-            "name": "🥃┃九六┃影视",
+            "key": "荐片",
+            "name": "🎬┃荐片┃影视",
+            "api": "csp_Jianpian",
             "type": 3,
-            "api": "csp_Cs1369",
+            "playerType": "2",
+            "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "csp_Nmys",
+            "name": "🌾┃农民┃影视",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Vidhub2",
+            "name": "🎼┃Vid┃影视",
+            "type": 3,
+            "api": "csp_Vidhub2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -61,15 +119,36 @@
             "type": 3,
             "playerType": "2",
             "api": "csp_Czsapp",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ240128.jar"
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "Libvio",
             "name": "💐┃Lib┃影视",
             "type": 3,
             "playerType": "1",
-            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
-            "ext": "https://d.kstore.space/download/6296/js/LIBVIO.js"
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/LIBVIO.js"
+        },
+        {
+            "key": "FreeOK",
+            "name": "️️👌┃Fre┃影视",
+            "type": 3,
+            "api": "csp_Freeok",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "哔嘀",
+            "name": "️️💦┃哔嘀┃影视",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": "1"
         },
         {
             "key": "皮皮虾",
@@ -79,6 +158,38 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "saohuo",
+            "name": " 👗┃骚火┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/骚火.js"
+        },
+        {
+            "key": "爱看影视",
+            "name": "❤┃爱看┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/爱看.js"
+        },
+        {
+            "key": "圣城影视",
+            "name": "🏰┃圣城┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/SC1080.js"
+        },
+        {
+            "key": "云播影视",
+            "name": "☁️┃云播┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/TVB云播.js"
         },
         {
             "key": "新视觉",
@@ -91,33 +202,82 @@
             "ext": "https://www.80yy3.com/"
         },
         {
+            "key": "二三",
+            "name": "2️⃣┃二三┃影视",
+            "type": 3,
+            "api": "csp_Ys23",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "007影视",
+            "name": "🍭┃零七┃影视",
+            "type": 3,
+            "playerType": "1",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/007.js"
+        },
+        {
             "key": "低端",
             "name": "🛣┃低端┃影视",
             "type": 3,
             "playerType": "2",
-            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
-            "ext": "https://d.kstore.space/download/6296/js/ddys.js"
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/ddys.js"
+        },
+        {
+            "key": "奇优",
+            "name": " 🍩┃奇优┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/奇优.js"
         },
         {
             "key": "虎虎",
             "name": "🐯┃虎虎┃影视",
             "type": 3,
             "api": "csp_Panda",
-            "ext": "http://我不是.肥猫.live/json/虎虎.json",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/虎虎.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "drpy_js_360影视",
             "name": "📺┃360┃官源",
             "type": 3,
-            "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
-            "ext": "https://d.kstore.space/download/6296/js/360.js"
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/360.js"
+        },
+        {
+            "key": "短剧one",
+            "name": "🥰┃短剧┃视频",
+            "type": 3,
+            "api": "csp_Panda",
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/短剧.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "种子短剧",
             "name": "💮┃短剧┃视频",
             "type": 1,
             "api": "http://zzdj.cc/api.php/provide/vod"
+        },
+        {
+            "key": "蓝猫动漫",
+            "name": "🌊┃蓝猫┃动漫",
+            "type": 3,
+            "api": "csp_Panda",
+            "ext": "分类:日漫$1#国漫$2#剧场$3#美漫$4#少儿$5,分类url:https://www.lmfun.vip/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
+        },
+        {
+            "key": "樱花动漫",
+            "name": "🌸┃樱花┃动漫",
+            "type": 3,
+            "api": "csp_Panda",
+            "ext": "分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "csp_Anime1",
@@ -127,7 +287,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "csp_xifan",
@@ -150,7 +310,7 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": " 在线┃直播1",
@@ -162,7 +322,7 @@
                 "type": "rect",
                 "ratio": 1.68
             },
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "看球",
@@ -178,6 +338,55 @@
             }
         },
         {
+            "key": "drpy_js_310直播",
+            "name": "🏀┃体育┃直播",
+            "type": 3,
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "changeable": 0,
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            },
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/310直播.js"
+        },
+        {
+            "key": "drpy_哔哩",
+            "name": "🅱┃哔哩┃合集",
+            "type": 3,
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/drpy2.min.js",
+            "playerType": 1,
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/B站.js"
+        },
+        {
+            "key": "儿童",
+            "name": "📚┃儿童┃启蒙",
+            "type": 3,
+            "api": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/api/ddrpy2.m.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/js/兔小贝.js"
+        },
+        {
+            "key": "少儿",
+            "name": "📚┃少儿┃教育",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/少儿教育.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
+        },
+        {
             "key": "小学",
             "name": "📚┃小学┃课堂",
             "type": 3,
@@ -189,8 +398,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "http://alist.xn--z7x900a.live/小学课堂.json",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/小学课堂.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "初中",
@@ -204,8 +413,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "http://alist.xn--z7x900a.live/初中课堂.json",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/初中课堂.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         },
         {
             "key": "高中",
@@ -219,10 +428,10 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "http://alist.xn--z7x900a.live/高中课堂.json",
-            "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+            "ext": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/json/高中课堂.json",
+            "jar": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/jars/蜂鸟.jar"
         }
-    ],
+        ],
     "parses": [
         {
             "name": "Json聚合",
@@ -309,10 +518,8 @@
         {
             "name": "live",
             "type": 0,
-            "playerType": 1,
-            "url": "http://我不是.肥猫.live/TV/tvzb.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "url": "https://bitbucket.org/ls125781003/tvboxtg/raw/main/肥猫/lives/live.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
     "rules": [
