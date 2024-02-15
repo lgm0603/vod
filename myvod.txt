@@ -16,6 +16,8 @@
 "name":"多多线路"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/pg.json",
 "name":"潇洒线路"},
+{"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/wj.json",
+"name":"无界线路"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/mao.json",
 "name":"肥猫线路"}
 ]
