@@ -1,7 +1,7 @@
 //https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/wj.json
 {
 "spider":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/spider/wj240109.jar",
-"warningText":"勿信片中广告以免上当受骗",
+"warningText":"正在加载!请稍后!Sina微博@·王健·",
 "wallpaper":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/wallpaper/8K01.jpg",
 
 "lives":[
@@ -24,7 +24,7 @@
 
 "sites":[
     
-{"key":"豆瓣","name":"无界🌏Ver.240130","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/js/drpy2.min.js","ext":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/js/douban.js"},
+//{"key":"豆瓣","name":"无界🌏Ver.240130","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/js/drpy2.min.js","ext":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/js/douban.js"},
 //{"key":"商店","name":"无界🌏应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/json/应用商店.json","jar":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/spider/app.jar"},
 //{"key":"直播转点播","name":"无界🌏电视直播","type":3,"searchable":0,"api":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/js/live2vod.js","ext":"https://ghproxy.net/https://raw.githubusercontent.com/asiaboke/tvlive/main/box/json/live.json"},
 //{"key":"本地","name":"无界🌏本地存储","type":3,"api":"csp_LocalFile","searchable":0,"changeable":0},
