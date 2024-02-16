@@ -239,9 +239,7 @@
     //{"key": "本地","name": "本地存储","type": 3,"api": "csp_Local","searchable": 0,"changeable": 0},
     //{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,"ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/libs/js/alist1.json"},
     //{"key": "WebDAV","name": "WebDAV","type": 3,"api": "csp_WebDAV","searchable": 1,"changeable": 0,"ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/libs/js/webdav.json"},
-//{"key":"csp_AList","name":"小雅｜云盘","type":3,"playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
-"ext":{"vodPic":"https://up.mediy.cn/033_喜欢_adf390021f221477b26a94f5eaf02643.png",
-"drives":[
+//{"key":"csp_AList","name":"小雅｜云盘","type":3,"playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,"ext":{"vodPic":"https://up.mediy.cn/033_喜欢_adf390021f221477b26a94f5eaf02643.png","drives":[
     {"name": "Ecve","server": "https://pan.ecve.cn/"},
     {"name": "小鸭","server": "https://pan.mediy.cn/"},
     {"name": "秋雨","server": "https://share.qiuyu.org/"},
