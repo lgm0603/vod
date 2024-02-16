@@ -14,6 +14,8 @@
 "name":"香雅情"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/dd.txt",
 "name":"多多线路"},
+{"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/m.json",
+"name":"老刘备"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/pg.json",
 "name":"潇洒线路"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/wj.json",
