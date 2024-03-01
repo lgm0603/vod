@@ -11,7 +11,7 @@
     "filterable": 1,
     "ext": "https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/xiqu.json",
     "spider":"https://gitee.com/hailin886/fty/raw/master/tvbox/xiqu.jar"
-    },
+    }
   ],
   "parses": [
     {
