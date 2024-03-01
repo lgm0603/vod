@@ -979,19 +979,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://www.liuyunw.com:88/json/小灯塔人文.json"
-    }
-    {
-      "key": "DaPanSo",
-      "name": "搜索 | 大盘搜",
-      "type": 3,
-      "api": "csp_DaPanSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "jar": "http://www.liuyunw.com:88/dm.jar;md5;006144514d4e59ac6f4a0e5f5ff601e7",
-      "ext": "http://www.liuyunw.com:88/lib/tokenm.json$$$https://dapanso.com$$$null"
-    }
+   } 
   ],
   "parses": [
     {
