@@ -1,0 +1,538 @@
+{
+  "spider": "https://www.soeasy.love/tvbox/custom_spider.jar;md5;2913291fc4c832e3753573593b727b89",
+  "sites": [
+    {
+      "key": "douban",
+      "name": "0323更新(公众号:SoEasy同学)",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dr_种子",
+      "name": "💥┃种子短剧",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/种子短剧.js"
+    },
+    {
+      "key": "dj5",
+      "name": "💥┃短剧VIP",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "sw",
+      "name": "💥┃升维短剧",
+      "type": 3,
+      "api": "csp_Swdj",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dr_农民",
+      "name": "🚀┃农民",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/农民影视.js"
+    },
+    {
+      "key": "dr_南瓜",
+      "name": "🚀┃南瓜",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/南瓜影视.js"
+    },
+    {
+      "key": "freeok",
+      "name": "🚀┃FreeOK",
+      "type": 3,
+      "api": "csp_Freeok",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+        {
+      "key": "ditp",
+      "name": "🚀┃December",
+      "type": 3,
+      "api": "csp_Ditp",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "akys",
+      "name": "🚀┃爱看影视",
+      "type": 3,
+      "api": "csp_Akys",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dr_影探",
+      "name": "🚀┃影探",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/影探V2.js"
+    },
+    {
+      "key": "cechi",
+      "name": "🚀┃策驰",
+      "type": 3,
+      "api": "csp_CeChi",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dr_荐片",
+      "name": "🚀┃荐片",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/荐片.js"
+    },
+    {
+      "key": "dr_爱看2",
+      "name": "🚀┃爱看2",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/ikanbot2.js"
+    },
+    {
+      "key" : "py_ceshi",
+      "name" : "🚀┃白嫖",
+      "type" : 3,
+      "api" : "https://www.soeasy.love/tvbox/py/白嫖影视.py",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key": "dr_厂长",
+      "name": "🚀┃厂长",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/厂长资源.js"
+    },
+    {
+      "key": "dr_voflix",
+      "name": "🚀┃voflix",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/voflix.js"
+    },
+    {
+      "key": "dr_圣城",
+      "name": "🚀┃圣城",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/圣城影视.js"
+    },
+    {
+      "key": "dr_360",
+      "name": "🚀┃360影视",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/360影视.js"
+    },
+    {
+      "key": "dr_6v",
+      "name": "🚀┃6V新版",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/6V新版[磁].js"
+    },
+    {
+      "key": "dr_大米星球",
+      "name": "🚀┃大米星球",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/大米星球[V2].js"
+    },
+    {
+      "key": "dr_哔嘀影视",
+      "name": "🚀┃哔嘀影视",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/哔嘀影视.js"
+    },
+    {
+      "key": "dr_立播",
+      "name": "🚀┃立播",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/LIBVIO.js"
+    },
+    {
+      "key": "wogg",
+      "name": "🧲┃玩偶哥哥",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "wanwo",
+      "name": "🧲┃玩我",
+      "type": 3,
+      "api": "csp_Wanwo",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "tudou",
+      "name": "🧲┃土豆",
+      "type": 3,
+      "api": "csp_Tudou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "wobg",
+      "name": "🧲┃玩偶表哥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "yingshiche",
+      "name": "🧲┃影视车",
+      "type": 3,
+      "api": "csp_Yingshiche",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "jisu",
+      "name": "🎬️┃极速",
+      "type": 3,
+      "api": "csp_Jscj",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "wolong",
+      "name": "🎬️┃卧龙",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/js/caiji.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "url": "https://collect.wolongzyw.com/api.php/provide/vod/",
+        "categories": "国产剧#台湾剧#欧美剧#香港剧#海外剧#惊悚片#喜剧片#动作片#伦理片#爱情片#科幻片#剧情片#动画片#国产动漫#欧美动漫"
+      }
+    },
+    {
+      "key": "baofeng",
+      "name": "🎬️┃暴风",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/js/caiji.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "url": "https://bfzyapi.com/api.php/provide/vod/",
+        "categories": "国产剧#台湾剧#欧美剧#香港剧#海外剧#惊悚片#喜剧片#动作片#伦理片#爱情片#科幻片#剧情片#动画片#国产动漫#欧美动漫"
+      }
+    },
+    {
+      "key": "yanaifei",
+      "name": "🎬️┃鸭奈飞",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://yanetflix.me/api.php/app/"
+    },
+    {
+      "key": "dr_量子资源",
+      "name": "🎬️┃量子资源",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/量子资源.js"
+    },
+    {
+      "key": "dr_量子影视",
+      "name": "🎬️┃量子影视",
+      "type": 3,
+      "api": "https://www.soeasy.love/tvbox/libs/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://www.soeasy.love/tvbox/js/量子影视.js"
+    },
+    {
+      "key": "Ying",
+      "name": "🍉┃樱花动漫",
+      "type": 3,
+      "api": "csp_Ying",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Ysj",
+      "name": "🍉┃异世界",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dm84",
+      "name": "🍉┃动漫巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name":"live2",
+      "type":0,
+      "playerType":1,
+      "url":"https://www.soeasy.love/tvbox/live.txt"
+    },
+    {
+        "name":"live",
+        "type":0,
+        "playerType":1,
+        "url":"http://我不是.肥猫.live/TV/tvzb.txt"
+    }
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}
