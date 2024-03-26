@@ -4,6 +4,8 @@
 "name":"饭太硬线路"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/230989.json",
 "name":"春盈天下线路"},
+{"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/dj.json",
+"name":"短剧专线"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/sxtv.txt",
 "name":"神仙线路"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/fxz.json",
