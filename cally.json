@@ -11,13 +11,7 @@
     
     "sites":[    
     
-    {"key":"豆瓣","name":"💝豆瓣荐片","type":3,"api":"csp_Douban","searchable":0},
-    
-    {"key":"应用","name":"🈵影视仓5.0.26","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"http://122.51.37.23/man/jar/ysc.json","jar":"http://122.51.37.23/man/jar/xiazai.jar"},
-        
-    {"key": "csp_KungFu404","name":"💝阿里设置","type": 3, "api": "csp_KungFu404", "searchable":0,"filterable": 0, "changeable":0,"jar":"https://d.kstore.space/download/4679/jpg/404.jar;md5;332d0e5a28640ee88589390ad4a23a39"},
-    
-    {"key":"csp_XYQHikerAL_影搜","name":"🅰️影搜阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/影搜.json"},   
+    {"key":"豆瓣","name":"💝豆瓣荐片","type":3,"api":"csp_Douban","searchable":0},   
     
   //  {"key":"csp_XYQHikerAL_影视车","name":"🅰️运输阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/影视车.json"},
        
