@@ -12,26 +12,7 @@
     "sites":[    
     
     {"key":"豆瓣","name":"💝豆瓣荐片","type":3,"api":"csp_Douban","searchable":0},   
-    
-  //  {"key":"csp_XYQHikerAL_影视车","name":"🅰️运输阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/影视车.json"},
-       
-    {"key":"csp_XYQHikerAL_开心阿里","name":"🅰️开心阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/开心阿里.json"},
-    
-    {"key":"csp_XYQHikerAL_玩偶哥哥","name":"🅰️阿里玩偶","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/玩偶哥哥.json"},
-    
-    {"key":"csp_XYQHikerAL_土豆","name":"🅰️土豆玩偶","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/土豆玩偶.json"},
-    
-    {"key":"csp_XYQHikerAL_阿里苏苏","name":"🅰️苏苏外剧","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/苏苏.json"},
-
-    {"key":"csp_XYQHikerAL_懒盘","name":"🅰️懒盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/懒盘.json"},   
-    
-  //  {"key":"Gitcafe","name":"🅰️阿里纸条","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt"},
-    
-    {"key": "csp_XYQHikerAL_找资源","name":"🅰️找资源","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://122.51.37.23/man/xyq/找资源.json"},
-    
-//    {"key":"csp_AliPS","name":"🅰️阿里喵狸","type":3,"api":"csp_AliPS","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt"},
          
-      
    {"key":"csp_JianPian","name":"💜磁_荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ownjpykxttjzuhy.jiesiwa.com"},
    
     
