@@ -121,9 +121,7 @@
     
     {"key":"高中","name":"📚高中教育","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://122.51.37.23/man/bili/高中教育.json"},
     
-    {"key":"中医","name":"📚中医中药","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://122.51.37.23/man/bili/中医.json"},
-    
-    {"key":"csp_LocalFile","name":"🈵02/22更新🔝","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0}
+    {"key":"中医","name":"📚中医中药","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://122.51.37.23/man/bili/中医.json"}
     
     ],
     
