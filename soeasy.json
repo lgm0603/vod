@@ -1,4 +1,3 @@
-\\https://www.soeasy.love/tvbox/config.json
 {
   "spider": "https://www.soeasy.love/tvbox/custom_spider.jar;md5;2913291fc4c832e3753573593b727b89",
   "sites": [
