@@ -18,6 +18,8 @@
 "name":"香雅情"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/soeasy.json",
 "name":"soeasy线路"},
+{"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/hccx.json",
+"name":"荷城茶秀"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/m.json",
 "name":"老刘备"},
 {"url":"https://ghproxy.net/https://raw.githubusercontent.com/lgm0603/vod/main/pg.json",
